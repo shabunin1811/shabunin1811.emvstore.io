@@ -1,7 +1,7 @@
 tg = window.Telegram.WebApp;
 
 tg.expand();
-let item = "";
+let data = "";
 
 let btn1 = document.getElementById("item-1");
 
