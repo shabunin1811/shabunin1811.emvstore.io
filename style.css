@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+    
+}
+.container {
+    max-width: 390px;
+    
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 254px 254px 254px;
+
+}
+.item {
+    width: 188px;
+    height: 250px;
+    margin: 2px;
+    text-align: center;
+    background-image: url('image/card-1.svg');
+}
+
+.right {
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.left {
+    margin-right: 2px;
+    margin-left: 5px;
+}
+
+.btn {
+    margin: 205px auto;
+    width: 172px;
+    height: 29px;
+    background-image: url('image/btn.svg');
+}
